@@ -9,5 +9,6 @@ package liguozhong.bigdata.mq.kafka;
 public class KafkaProperties {
 	final static String BROKER_LIST = "192.168.56.101:9092,192.168.56.102:9092,192.168.56.103:9092";
 	final static String ORDER_TOPIC = "order";
+	public static String ZOOKEEPER_LIST = "192.168.56.101,192.168.56.102:9092,192.168.56.103:9092";
 
 }

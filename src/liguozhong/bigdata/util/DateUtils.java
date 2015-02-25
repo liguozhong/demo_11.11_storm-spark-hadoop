@@ -13,6 +13,7 @@ import java.util.Calendar;
 public class DateUtils {
 
 	public static final String YMDHMS = "yyyy-MM-dd HH:mm:ss";
+	public static final String YMD = "yyyy-MM-dd";
 
 	public static String date2String(String date, String patton) {
 		SimpleDateFormat sdf = new SimpleDateFormat(patton);
